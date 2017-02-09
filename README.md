@@ -1,5 +1,8 @@
 # SwiftSegmentationFault
-An example iOS app to illustrate Swift compiler issue when using swift protocols with objective c
+An example iOS app to illustrate Swift compiler issue when using swift protocols with Objective-C class.
+It also causes Xcode editor to display a message  "An internal error occurred. Source editor functionality is limited. Attempting to restore..."
+
+This repo is just to illustrate the error and to help finding proper solution as I've spend more than a day on this with various techniques available but failed.
 
 # Configuration:
 
