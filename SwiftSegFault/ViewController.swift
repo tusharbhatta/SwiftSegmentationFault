@@ -15,7 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        let hyundaiSantro = HatchbackCar(name: "Huyndai Santro", wheels: 4)
+        let hyundaiSantro = HatchbackCar("Huyndai Santro", wheels: 4)
+//        let sedanCar = SedanCar(name: "Honda City")
     }
 
     override func didReceiveMemoryWarning() {

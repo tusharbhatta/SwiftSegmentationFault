@@ -13,10 +13,10 @@ import Foundation
     var name: String {get set}
 }
 
-@objc protocol Vehicle {
+@objc protocol Vehicle : Machine {
     var noOfWheels: Int {get set}
 }
 
-@objc protocol CarProtocol: Machine, Vehicle {
+@objc protocol CarProtocol: Vehicle {
     
 }
